@@ -1,0 +1,17 @@
+{
+    "name": "Shotren Url",
+    "description": "L",
+    "repository": "https://github.com/cachecleanerjeet/telegram-subs-counter",
+    "logo": "https://telegra.ph/file/d32f2537e7e0a7e5fd9fd.png",
+
+    "env": {
+        "BOT_API_KEY": {
+            "description": "gp link api",
+            "value": ""
+        },
+        "USERNAME": {
+            "description": "shirnkme.io api",
+            "value": ""
+        }
+    }
+}
