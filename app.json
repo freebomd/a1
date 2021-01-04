@@ -8,12 +8,12 @@
         "gplink": {
             "description": "gp link Api Get It From Here https://gplinks.in/member/tools/api ",
             "value": "714d94cc0bee820944c8007db0f684d40e29fe27"
-            "Required":"false"
+            "Required": "false"
         },
         "shirnkme": {
             "description": "shirnkme.io Api Get It From Here https://shrinkme.io/member/tools/api ",
             "value": "9b8aab2630a0e5c289837488ea83536e6912dd99"
-            "Required":"false"
+            "Required": "false"
         }
     }
 }
