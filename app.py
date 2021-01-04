@@ -4,8 +4,8 @@ import requests
 
 app = Flask(__name__)
 
-gplinkapi = environ.get('BOT_API_KEY')
-shrinkme = environ.get('USERNAME')
+gplinkapi = environ.get('gplinkapi')
+shrinkme = environ.get('shirnkmeapi')
 
 @app.route("/")
 def home():
