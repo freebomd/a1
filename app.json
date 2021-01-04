@@ -1,8 +1,8 @@
 {
     "name": "Shotren Url",
     "description": "L",
-    "repository": "https://github.com/cachecleanerjeet/telegram-subs-counter",
-    "logo": "https://telegra.ph/file/d32f2537e7e0a7e5fd9fd.png",
+    "repository": "https://github.com/freebomd/shotrenlinkapi/",
+    "logo": "https://telegra.ph/file/19857634a88519cd3035f.jpg",
 
     "env": {
         "gplink": {
