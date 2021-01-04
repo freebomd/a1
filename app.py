@@ -9,7 +9,7 @@ shrinkme = environ.get('USERNAME')
 
 @app.route("/")
 def home():
-    return "Working"
+    return render_template("main.html")
 
 @app.route('/shrinkme',methods=['GET','POST'])
 def id():
