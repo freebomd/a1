@@ -17,9 +17,10 @@ def id():
     base_url = f"https://shrinkme.io/api?api="+shrinkme+"&url="+(w)
     torrent_results = requests.get(url=base_url).json()
     data = torrent_results
-    shturl = data['shortenedUrl']
+    shturl = data['shortenedUrl'].replace['/','\/']
     web = "https://gplinks.in/"
-    return render_template("main.json",web=web,shturl=shturl,w=w)
+    x = w..replace['/','\/']
+    return render_template("main.json",web=web,shturl=shturl,x=x)
     
 @app.route('/gplink',methods=['GET','POST'])
 def ids():
