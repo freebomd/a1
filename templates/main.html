@@ -1,27 +1,64 @@
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Api Working</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"/>
+    <link rel="icon" href="https://telegra.ph/file/19857634a88519cd3035f.jpg" type="image/gif" sizes="16x16">
+    <style>
+      * {
+          box-sizing: border-box;
+      }
+      
+      body {
+          background: linear-gradient(to right, #1a14b8, #000000);
+          font-family: "Roboto Mono", sans-serif;
+          margin: 0;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          overflow: hidden;
+      }
+      
+      .counter-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 30px 50px;
+          text-align: center;
+      }
+      
+      .counter {
+          font-size: 60px;
+          margin-top: 10px;
+      }
+      
+      @media (max-width: 630px) {
+          body {
+              flex-direction: column;
+          }
+      }
+  </style>
 </head>
 <body>
-    <!DOCTYPE html>
+    
 <html>
 <body>
-
-
+<div >
 <form action="/gplink?url=">
-  <label for="url">First name:</label><br>
+    <img height="200px" src="https://gplinks.in/img/gp-logo.png" alt="Home"><br>
   <input type="text" id="url" name="url" value="github.com/freebomd/shotrenlinkapi/"><br>
-  <input type="submit" value="GpLink Shotren">
+  <input style="background-color: antiquewhite;" type="submit" value="GpLink Shotren">
 </form> 
     
 <form action="/shrinkme?url=">
-  <label for="url">First name:</label><br>
+  <img height="200px" src="https://shrinkme.io/favicon-3.webp" alt="a"><br>
   <input type="text" id="url" name="url" value="github.com/freebomd/shotrenlinkapi/"><br>
-  <input type="submit" value="ShrinkMe Shotren">
+  <input style="text-align: center;" style="background-color: aquamarine;" type="submit" value="ShrinkMe Shotren">
 </form> 
-
+</div>
 
 </body>
 </html>
