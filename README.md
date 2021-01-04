@@ -4,7 +4,7 @@ Make short link by using [GPlink](https://gplinks.in/) & [ShrinkMe](https://shri
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/freebomd/shotrenlinkapi/)
 
 ##### Required Variables
 
@@ -12,6 +12,6 @@ Make short link by using [GPlink](https://gplinks.in/) & [ShrinkMe](https://shri
 
 * `ShrinkMe Api`: Get if from [GpLinkApi](https://shrinkme.io/member/tools/api).
 
-###Useage
+### Useage
 * `ShrinkMe Api`: https://<yourappname>.herokuapp.com/shrink
 ### More Websites ComingSoon...
